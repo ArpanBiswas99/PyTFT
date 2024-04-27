@@ -44,14 +44,6 @@ Before you begin, ensure you have met the following requirements:
 - For Windows users: `.NET Framework 4.7.2` or higher.
 - For Linux users: `mono-complete` package to run the .exe file.
 
-## Installation
-
-Clone the repository using:
-
-```bash
-git clone https://github.com/[Your GitHub Username]/PyTFT.git
-```
-
 ## Structure
 
 - `Documents/`: Contains thesis documents, presentations, and related material.
