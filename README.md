@@ -1,48 +1,22 @@
 # PyTFT - Automated Extraction of TFT Parameters for Simulation (SPICE MOS Level 3)
 
 ## Introduction
-This repository contains a Python application for extracting parameters of IGZO Thin-Film Transistors (TFTs) using a graphical user interface (GUI). The tool implements various optimization algorithms to analyze the input and output characteristics of IGZO TFT devices and extract critical parameters like threshold voltage, mobility, and output resistance.
+This is an automated tool for the extraction of simulation parameters from Thin Film Transistors (TFT) for SPICE simulation. In large-area microelectronics, TFTs are the foundational components in microelectronic devices which include displays, and sensor arrays. The more complex the circuitry becomes, the more accurate simulations are required before fabrication of the devices. An automated tool helps to get parameters for the SPICE simulation and help to know the device behaviour through simulation results before fabrication.
+
+Simulation frameworks like SPICE are used for circuit or TFT simulations, which require manual extraction of TFT model parameters. The central aim of this thesis is to design a tool that automates the extraction of parameters from measured TFT characteristic curves, thus automating the simulation process. The functionality of the tool is expanded to provide comparative analysis between measured and simulated graphs from the TFT input and output characteristic curves, using an iterative optimization algorithm.
 
 ## Features
 - **Comprehensive GUI**: Built with Tkinter, offering an intuitive interface for data input and parameter configuration.
 - **Multiple Optimization Algorithms**: Includes options like Differential Evolution and custom versions for flexibility.
 - **Graphical Data Visualization**: Integrated matplotlib for real-time plotting of transistor characteristics and extraction results.
 - **Configurable Parameter Settings**: Users can adjust optimization settings directly through the GUI.
-- **Output Results Handling**: Ability to save extracted parameters and plots in different file formats.
+- **Output Results Handling**: Ability to save extracted parameters and plots.
 
 ## Getting Started
 
 ### Prerequisites
 - Python 3.8 or newer
 - Dependencies: `matplotlib`, `numpy`, `scipy`, `PIL`, `tkinter`, `configparser`, and `subprocess`
-
-### Installation
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/ArpanBiswas99/PyTFT.git
-
-
-Based on your GitHub repository name, PyTFT, and the folder structure you have provided, here's a comprehensive README that you could use for your repository. Make sure to replace `[Your Name]` with your actual name and `[Your Institution]` with the name of your institution or organization.
-
-```markdown
-# PyTFT - Thin Film Transistor Analysis Tool
-
-PyTFT is a tool developed for analyzing and extracting parameters of Thin Film Transistors (TFTs). It provides a graphical user interface for processing the input and output characteristics of TFT devices, particularly IGZO (Indium Gallium Zinc Oxide) TFTs. The tool is designed to be user-friendly, enabling researchers and engineers to obtain critical transistor parameters through an optimized set of algorithms.
-
-## Features
-
-- Cross-platform support with executables for both Windows and Linux.
-- User-friendly GUI for easy navigation and parameter tuning.
-- In-built optimization algorithms for parameter extraction.
-- Visualization of characteristic curves with data from actual measurements.
-- Support for a variety of data file structures.
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- For Windows users: `.NET Framework 4.7.2` or higher.
-- For Linux users: `mono-complete` package to run the .exe file.
 
 ## Structure
 
